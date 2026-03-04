@@ -5,3 +5,6 @@
 // Buzzer & LED pins
 #define buzzerPin D7 // GPIO13
 #define ledPin D8    // GPIO15
+
+long duration;
+float distance;
