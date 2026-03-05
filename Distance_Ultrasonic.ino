@@ -1,4 +1,4 @@
-// Ultrasonic sensor pins
+// Ultrasonic sensor
 #define trigPin D5   // GPIO14
 #define echoPin D6   // GPIO12
 
