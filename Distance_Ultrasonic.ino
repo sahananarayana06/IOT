@@ -24,4 +24,8 @@ void loop() {
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
+
+  duration = pulseIn(echoPin, HIGH, 30000); // 30ms timeout (~5m)
+  distance = (duration * 0.0343) / 2;
 }
+
