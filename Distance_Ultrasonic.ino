@@ -9,7 +9,6 @@
 long duration;
 float distance;
 
-
 void setup() {
   Serial.begin(9600);
   pinMode(trigPin, OUTPUT);
