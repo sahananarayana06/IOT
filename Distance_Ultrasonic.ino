@@ -16,6 +16,7 @@ void setup() {
   pinMode(echoPin, INPUT);
   pinMode(buzzerPin, OUTPUT);
   pinMode(ledPin, OUTPUT);
+
 }
 void loop() {
   // --- Measure Distance ---
