@@ -33,6 +33,7 @@ void loop() {
   Serial.println(" cm");
   
   // --- Buzzer + LED Control ---
+  if (distance > 0 && distance <= 20) {
 }
 
 
