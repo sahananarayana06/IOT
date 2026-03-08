@@ -38,6 +38,7 @@ void loop() {
     digitalWrite(buzzerPin, HIGH);
     digitalWrite(ledPin, HIGH);
     digitalWrite(buzzerPin, HIGH);
+    delay(100);
 }
 
 
