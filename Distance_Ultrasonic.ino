@@ -31,6 +31,8 @@ void loop() {
   Serial.print("Distance: ");
   Serial.print(distance);
   Serial.println(" cm");
+  
+  // --- Buzzer + LED Control ---
 }
 
 
