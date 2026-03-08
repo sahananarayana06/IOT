@@ -36,6 +36,7 @@ void loop() {
   if (distance > 0 && distance <= 20) {
     // Very close → continuous buzzer & LED ON
     digitalWrite(buzzerPin, HIGH);
+    digitalWrite(ledPin, HIGH);
 }
 
 
