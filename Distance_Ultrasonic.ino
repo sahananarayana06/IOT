@@ -37,6 +37,7 @@ void loop() {
     // Very close → continuous buzzer & LED ON
     digitalWrite(buzzerPin, HIGH);
     digitalWrite(ledPin, HIGH);
+    digitalWrite(buzzerPin, HIGH);
 }
 
 
