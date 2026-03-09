@@ -42,6 +42,8 @@ void loop() {
   }
   else if (distance > 20 && distance <= 50) {
      // Medium range → fast beeps
+    digitalWrite(ledPin, HIGH);
+    digitalWrite(buzzerPin, HIGH);
 }
 
 
