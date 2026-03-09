@@ -44,6 +44,9 @@ void loop() {
      // Medium range → fast beeps
     digitalWrite(ledPin, HIGH);
     digitalWrite(buzzerPin, HIGH);
+    delay(200);
+    digitalWrite(buzzerPin, LOW);
+    delay(200);
 }
 
 
