@@ -47,6 +47,7 @@ void loop() {
     delay(200);
     digitalWrite(buzzerPin, LOW);
     delay(200);
+  }
 }
 
 
