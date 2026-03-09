@@ -40,6 +40,7 @@ void loop() {
     digitalWrite(buzzerPin, HIGH);
     delay(100);
   }
+  else if (distance > 20 && distance <= 50) {
 }
 
 
