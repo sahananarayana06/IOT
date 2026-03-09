@@ -41,6 +41,7 @@ void loop() {
     delay(100);
   }
   else if (distance > 20 && distance <= 50) {
+     // Medium range → fast beeps
 }
 
 
