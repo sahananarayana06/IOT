@@ -48,6 +48,8 @@ void loop() {
     digitalWrite(buzzerPin, LOW);
     delay(200);
   }
+  else if (distance > 50 && distance <= 100) {
+    // Far → slow beeps
 }
 
 
