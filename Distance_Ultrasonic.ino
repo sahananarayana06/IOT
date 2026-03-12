@@ -52,6 +52,7 @@ void loop() {
     // Far → slow beeps
     digitalWrite(ledPin, HIGH);
     digitalWrite(buzzerPin, HIGH);
+    delay(300);
 }
 
 
