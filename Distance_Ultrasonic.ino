@@ -58,6 +58,9 @@ void loop() {
   }
   else {
     // No object → everything OFF
+    digitalWrite(buzzerPin, LOW);
+    digitalWrite(ledPin, LOW);
+  }
 }
 
 
