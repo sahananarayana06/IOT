@@ -55,6 +55,9 @@ void loop() {
     delay(300);
     digitalWrite(buzzerPin, LOW);
     delay(300);
+  }
+  else {
+    // No object → everything OFF
 }
 
 
