@@ -50,6 +50,8 @@ void loop() {
   }
   else if (distance > 50 && distance <= 100) {
     // Far → slow beeps
+    digitalWrite(ledPin, HIGH);
+    digitalWrite(buzzerPin, HIGH);
 }
 
 
