@@ -53,6 +53,8 @@ void loop() {
     digitalWrite(ledPin, HIGH);
     digitalWrite(buzzerPin, HIGH);
     delay(300);
+    digitalWrite(buzzerPin, LOW);
+    delay(300);
 }
 
 
