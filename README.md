@@ -6,3 +6,12 @@ It can be used for:
 - Smart parking systems
 - Distance warning systems
 - Robotics projects
+ 
+Components Required:
+- NodeMCU (ESP8266)
+- Ultrasonic Sensor (HC-SR04)
+- Buzzer
+- LED
+- Resistor (220Ω for LED)
+- Jumper wires
+- Breadboard
