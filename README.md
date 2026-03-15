@@ -19,5 +19,3 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 ##It can be used for:
 - Obstacle detection 
 - Smart parking systems
-- Device warning systems
-- Robotics projects
