@@ -14,7 +14,4 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 - LED
 - Resistor (220Ω for LED)
 - Jumper wires
-- Breadboard
-
-## It can be used for:
-
+- Breadboards
