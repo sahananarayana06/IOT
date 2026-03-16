@@ -17,5 +17,4 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 - Breadboard
 
 ## It can be used for:
-- Obstacle detection
-- Smart parking system
+
