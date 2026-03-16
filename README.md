@@ -16,6 +16,7 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 - Jumper wires
 - Breadboard
 
+## It can be used for:
 - Obstacle detection
 - Smart parking system
 - Distance warning systms
