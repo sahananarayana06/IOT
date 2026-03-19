@@ -15,3 +15,10 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 - Resistor (220Ω for LED)
 - Jumper wires
 - Breadboards
+
+## Pin Connections
+Component	      NodeMCU Pin	      GPIO
+Trig Pin	         D5	            GPIO14
+Echo Pin	         D6	            GPIO12
+Buzzer	           D7	            GPIO13
+LED	              D8	            GPIO15
