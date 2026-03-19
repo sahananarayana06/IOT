@@ -16,10 +16,8 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 - Jumper wires
 - Breadboards
 
-## Pin Connections
-- Component	      NodeMCU Pin	      GPIO
-- Trig Pin	         ^ D5	            GPIO14
-- Echo Pin	         D6	            GPIO12
-- Buzzer	           D7	            GPIO13
-- LED	              D8	            GPIO15
-
+ ## Working
+- Ultrasonic sensor sends sound waves.
+- Echo receives reflected waves.
+- NodeMCU calculates distance.
+- Alerts are triggered based on distance.
