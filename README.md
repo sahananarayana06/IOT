@@ -21,3 +21,10 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 - Echo receives reflected waves.
 - NodeMCU calculates distance.
 - Alerts are triggered based on distance.
+
+| Distance Range | Action                        |
+| -------------- | ----------------------------- |
+| 0 – 20 cm      | 🔴 Continuous buzzer + LED ON |
+| 20 – 50 cm     | 🟡 Fast beep                  |
+| 50 – 100 cm    | 🟢 Slow beep                  |
+| > 100 cm       | ⚫ No alert                    |
