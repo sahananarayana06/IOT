@@ -37,3 +37,6 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 | 20 – 50 cm     | 🟡 Fast beep                  |
 | 50 – 100 cm    | 🟢 Slow beep                  |
 | > 100 cm       | ⚫ No alert                    |
+
+## Formula Used
+Distance = (Duration × 0.0343) / 2
