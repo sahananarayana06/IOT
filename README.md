@@ -22,6 +22,8 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 - NodeMCU calculates distance.
 - Alerts are triggered based on distance.
 
+  ## 
+
 | Distance Range | Action                        |
 | -------------- | ----------------------------- |
 | 0 – 20 cm      | 🔴 Continuous buzzer + LED ON |
