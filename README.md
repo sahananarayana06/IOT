@@ -43,4 +43,5 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 
 ## How to Run
 - Install Arduino IDE
+- Add ESP8266 board support
 
