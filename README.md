@@ -5,7 +5,7 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 - Obstacle detection
 - Smart parking systems
 - Distance warning systems
-- Robotics project
+- Robotics projects
  
 ## Components Required:
 - NodeMCU (ESP8266)
