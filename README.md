@@ -11,7 +11,7 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 - NodeMCU (ESP8266)
 - Ultrasonic Sensor (HC-SR04)
 - Buzzer
--
+- 
 - Resistor (220Ω for LED)
 - Jumper wires
 - Breadboards
