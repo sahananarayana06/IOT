@@ -46,4 +46,6 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 - Install Arduino IDE
 - Add ESP8266 board support
 - Connect NodeMCU via USB
+- Upload the code
+
 - Open Serial Monitor (9600 baud)
