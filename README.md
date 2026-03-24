@@ -1,10 +1,12 @@
 This project uses an Ultrasonic Sensor (HC-SR04) with NodeMCU (ESP8266) to measure the distance of an object.
 When an object comes near, the buzzer and LED alert the user based on how close the object 
+
 ## It can be used for:
 - Obstacle detection
 - Smart parking systems
 - Distance warning systems
 - Robotics projects
+
 ## Components Required:
 - NodeMCU (ESP8266)
 - Ultrasonic Sensor (HC-SR04)
@@ -13,6 +15,7 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 - Resistor (220Ω for LED)
 - Jumper wires
 - Breadboards
+
 ## Pin Configuration
 | Component | NodeMCU Pin | GPIO   |
 | --------- | ----------- | ------ |
@@ -20,6 +23,7 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 | Echo      | D6          | GPIO12 |
 | Buzzer    | D7          | GPIO13 |
 | LED       | D8          | GPIO15 |
+
 ## Working
 - Ultrasonic sensor sends sound waves.
 - Echo receives reflected waves.
