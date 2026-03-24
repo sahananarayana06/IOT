@@ -25,7 +25,6 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 - Echo receives reflected waves.
 - NodeMCU calculates distance.
 - Alerts are triggered based on distance.
-
 ## Distance Logic
 | Distance Range | Action                        |
 | -------------- | ----------------------------- |
@@ -34,10 +33,8 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 | 50 – 100 cm    | 🟢 Slow beep                  |
 | > 100 cm       | ⚫ No alert                   |
 
-
 ## Formula Used
        Distance = (Duration × 0.0343) / 2
-
 ## How to Run
 - Install Arduino IDE
 - Add ESP8266 board support
