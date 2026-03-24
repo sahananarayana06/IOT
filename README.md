@@ -39,7 +39,7 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 | > 100 cm       | ⚫ No alert                   |
 
 ## Formula Used
-            Distance = (Duration × 0.0343) / 2
+       Distance = (Duration × 0.0343) / 2
 
 ## How to Run
 - Install Arduino IDE
