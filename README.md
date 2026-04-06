@@ -7,6 +7,7 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 - Distance warning systems
 - Robotics projects
 
+
 ## Components Required:
 - NodeMCU (ESP8266)
 - Ultrasonic Sensor (HC-SR04)
