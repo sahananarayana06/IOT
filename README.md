@@ -26,7 +26,6 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 | LED       | D8          | GPIO15 |
 
 ## Working
-
 - Ultrasonic sensor sends sound waves.
 - Echo receives reflected waves.
 - NodeMCU calculates distance.
