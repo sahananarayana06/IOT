@@ -41,7 +41,6 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 ## Formula Used
     Distance = (Duration × 0.0343) / 2
 
-
 ## How to Run
 - Install Arduino IDE
 - Add ESP8266 board support
