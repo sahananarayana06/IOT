@@ -35,6 +35,7 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 - Alerts are triggered based on distance.
 
 ## Distance Logic
+
 | Distance Range | Action                        |
 | -------------- | ----------------------------- |
 | 0 – 20 cm      | 🔴 Continuous buzzer + LED ON |
