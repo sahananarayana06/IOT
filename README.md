@@ -17,6 +17,7 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 - Breadboards
 
 ## Pin Configuration
+
 | Component | NodeMCU Pin | GPIO   |
 | --------- | ----------- | ------ |
 | Trig      | D5          | GPIO14 |
