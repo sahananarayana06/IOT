@@ -8,7 +8,6 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 - Robotics projects
 
 ## Components Required:
-
 - NodeMCU (ESP8266)
 - Ultrasonic Sensor (HC-SR04)
 - Buzzer
