@@ -49,4 +49,4 @@ When an object comes near, the buzzer and LED alert the user based on how close 
 - Open Serial Monitor (9600 baud)
 
 ##How to run
-- Install Ardino
+- Install Ardino IDE
