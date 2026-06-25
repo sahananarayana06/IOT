@@ -1,4 +1,4 @@
-// Ultrasonic Sensor pins
+// Ultrasonic sensor pins
 #define trigPin D5   // GPIO14
 #define echoPin D6   // GPIO12
 
@@ -31,7 +31,7 @@ void loop() {
   Serial.print("Distance: ");
   Serial.print(distance);
   Serial.println(" cm");
-  
+
   // --- Buzzer + LED Control ---
   if (distance > 0 && distance <= 20) {
     // Very close → continuous buzzer & LED ON
@@ -39,9 +39,11 @@ void loop() {
     digitalWrite(ledPin, HIGH);
     digitalWrite(buzzerPin, HIGH);
     delay(100);
+    digitalWrite(buzzerPin, LOW);
+    delay(100);
   }
   else if (distance > 20 && distance <= 50) {
-     // Medium range → fast beeps
+    // Medium range → fast beeps
     digitalWrite(ledPin, HIGH);
     digitalWrite(buzzerPin, HIGH);
     delay(200);
@@ -62,5 +64,3 @@ void loop() {
     digitalWrite(ledPin, LOW);
   }
 }
-
-
